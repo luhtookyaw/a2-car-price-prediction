@@ -1,6 +1,8 @@
 # A2. Car Price Prediction Project
 ### By Lu Htoo Kyaw (ST124956)
 
+You can access the live ml.brain website at https://st124956.ml.brain.cs.ait.ac.th/
+
 This project predicts car prices using a Django-based web application integrated with a trained Polynomial Regression model. It includes Jupyter notebooks for exploratory data analysis (EDA) and model training. The training process is managed using MLflow, enabling experiment tracking, model versioning, and performance comparison. The entire setup is containerized with Docker for ease of deployment and reproducibility.
 
 Polynomial Regression allows the model to capture complex relationships between car attributes and their prices, offering smoother predictions compared to linear models. The training process involves data preprocessing, feature scaling, polynomial feature transformation, k-fold cross-validation, and hyperparameter tuning. MLflow is used to log training metrics such as mean squared error (MSE) and R² score, helping to identify the best-performing model for deployment.
